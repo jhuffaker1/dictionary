@@ -1,0 +1,5 @@
+set_of_150kwords = set(list_of_150kwords)
+one_set = set(one_list)
+
+len(one_set & set_of_150kwords) # set intersection is &
+=> number of elements common to both sets
