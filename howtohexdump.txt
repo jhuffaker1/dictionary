@@ -1,0 +1,1 @@
+hexdump -v -e '/1 "%02x "' /tmp/test.txt | sed 's/0a /0a\n/g'
